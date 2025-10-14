@@ -120,7 +120,7 @@ DWORD WINAPI ClientHandler(LPVOID param) {
                     fprintf(fp, "%s %s\n", username, password);
                     fclose(fp);
                     check(username); // initialize friendgraph
-                    send(sock, "Registered successfully!", 25, 0);
+                    send(sock, "Registered successfully!!!!", 25, 0);
                 }
             } 
             else if (choice == 2) { // Login
